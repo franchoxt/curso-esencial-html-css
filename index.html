@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <title>El Blog de francho</title>
+    <meta property="og:title" content="Mi projecto del curso esencial de html y css" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Todo lo que becesitas saber para empezar en el mundo frontend" />
+    <meta property="og:url" content="https://franchoxt.github.io/curso-esencial-html-css/" />
+    <meta property="og:image" content="https://franchoxt.github.io/images/dom.png" />
 </head>
     <body>
         <div class="hero"></div>
@@ -107,9 +112,9 @@
                     <h3 id="github">GitHub</h3>
                     <p>Así como en Facebook te encuentran tus amigos, en Github te encuentran otras programadoras y programadores de todo el mundo, en vez de subir fotos de tus viajes aquí subes tu código y puedes elegir hacerlo “open source” o guardarlo de manera privada, Github será esencial para almacenar tu futuro portafolio.</p>
                 <blockquote>
-                   <p>
-                        "Este es el inicio de tu carrera como Desarrollador Web"     
-                   </p>
+                <p>
+                    "Este es el inicio de tu carrera como Desarrollador Web"     
+                </p>
                     <p>
                         <span>
                         Leonidas Esteban.
@@ -183,9 +188,39 @@
                         <li>padding-block | padding-inline | padding-block-start | padding-block-end | padding-inline-start | padding-inline-end</li>
                     </ul>
                 </section>
+                <div class="section-content">
+                    <h2>
+                        Hola estos son algunos videos muy lindos</h2>
+                        <div class="slider">
+                            <scroll-container class="slider-container">
+                                <scroll-paige class="slider-slide" id="video-1">
+                                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/5f5Ig_U2Bpk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </scroll-paige>
+                                <scroll-paige class="slider-slide" id="video-2">
+                                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/cuyYAYFI414" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </scroll-paige>
+                                <scroll-paige class="slider-slide" id="video-3">
+                                    <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/o8iqG4bAN0s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </scroll-paige>
+                            </scroll-container>
+                            <div class="slider-bullet-list">
+                                <a href="#video-1">1</a>
+                                <a href="#video-2">2</a>
+                                <a href="#video-3">3</a>
+                            </div>
+                        </div>
+                </div>
                 <p>Si tienes alguna pregunta escríbeme a
                     <a href="mailto:franciscoroman@gmail.com">franciscoroman@gmail.com</a>
                 </p>
+                <div class="section-content">
+                    <h2>Ingresa a nuestro newsletter</h2>
+                    <form class="form" action="">
+                        <input type="text" required placeholder="Nombre">
+                        <input type="email" required placeholder="Correo electronico">
+                        <input type="submit" value="Suscribirme">
+                    </form>
+                </div>
                 </div>
             </div>
         </main>
